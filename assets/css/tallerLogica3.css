@@ -1,0 +1,28 @@
+body{
+    background-image: url("../images/65806.jpg");
+}
+
+.formulario_pizza{
+    border: 1px orange;
+    background-color: #ffbb3e;
+    padding: 50px;
+    border-radius: 15px;
+    color: rgb(79, 117, 4);
+}
+.letra_pizzeria{
+font-size: 70px;
+color: white;
+}
+.boton_descuento{
+    color: white;
+    font-size: 20px;
+    margin: 0px 0px 0px 100px;
+}
+.notitaPremio{
+    border-radius: 10px;
+    background-color: #ffbb3e;
+    color: rgb(66, 74, 81);
+    display: flex;
+    justify-content: center;
+    margin: 40px 300px 40px 300px;
+}

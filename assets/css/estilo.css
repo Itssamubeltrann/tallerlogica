@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "miFuentePepe";
+    src: url(../fonts/Bookstory.ttf);
+}
+.miFuentePepe{
+    font-family: "miFuentePepe";
+    font-size: 200px;
+}
+body{
+    background-color: rgb(251, 255, 28);
+}
+.cartasNotas{
+    margin-left: 100px;
+}
+
+.botonEditarNotas{
+    border: none;
+}

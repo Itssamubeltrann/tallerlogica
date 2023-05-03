@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "fuenteIncreible";
+    src: url(/assets/fonts/Bookstory.ttf);
+}
+
+.letraIncreible{
+font-size: 130px;
+font-family: "fuenteIncreible";
+}
+.numeroDatoUsuario{
+    border: 2px;
+    padding: 50px;
+    border-radius: 8%;
+    background: #ffe270;
+}
+.FormularioDatos{
+    padding: 75px;
+    border-radius: 10%;
+    border-color: #282108;
+}
+.letraBoton{
+    border: none;
+}
+span{
+    color: aliceblue;
+}

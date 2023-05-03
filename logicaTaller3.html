@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/tallerLogica3.css">
+    <title>logica 3</title>
+</head>
+<body class="container">
+    <div class="row">
+        <h1 class="d-flex justify-content-center align-items-center mt-5 col-12 letra_pizzeria">Bienvenido a pizzeria Pepitos</h1>
+        <div class="col-12 d-flex justify-content-center mt-5">
+            <form class="formulario_pizza">
+                <div>
+                    <h3>Ingrese su edad</h3>
+                    <p><input class="form-control" type="text" placeholder="Ingrese la edad" id="edad_usuario"></p>
+                    <button onclick="mostrarDatos()" type="button" class=" btn bg-danger d-flex justify-content-center align-items-center boton_descuento">Ver descuento</button>
+                </div>
+            </form>
+        </div>
+        <div class="mostrar_premios"></div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="assets/js/tallerLogica3.js"></script>
+</body>
+</html>
